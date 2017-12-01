@@ -3,3 +3,4 @@
     ->setSourceDir('public')
     ->usePackage('larakit/sf-angular')
     ->jsPackage('angular-clipboard.js');
+\Larakit\LkNgModule::register('angular-clipboard');
